@@ -20,7 +20,7 @@ decription= r"""
 #IP, ID, Password input
 if len(sys.argv) is not 4:
 	print(decription)
-	print(Fore.RED+"[-] Example: python Netgear_exploit.py <Target IP> <ID> <Password>"+Fore.RESET)
+	print(Fore.RED+"[-] Example: python Netgear_Path_Traversal.py <Target IP> <ID> <Password>"+Fore.RESET)
 	sys.exit()
 
 target = sys.argv[1]
