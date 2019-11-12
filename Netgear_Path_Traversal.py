@@ -1,4 +1,4 @@
-#device: Netgear jnr1010 Firmware: 1.0.0.24
+#device: Netgear JNR1010 Firmware: 1.0.0.24
 import requests
 import sys
 import base64
