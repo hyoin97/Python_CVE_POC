@@ -4,7 +4,7 @@ import sys
 import base64
 from colorama import Fore
 
-decription= r"""
+description= r"""
  -----------------------------------------------------------------------------
 |                                   No CVE                                   |
 |                                                                            |
@@ -20,7 +20,7 @@ decription= r"""
 """
 
 if len(sys.argv) is not 5:
-   print(decription)
+   print(description)
    print(Fore.YELLOW+"[-] Example: python Netgear_Authentication_Bypass.py <Target IP> <ID> <Password> <SessionID>"+Fore.RESET)
    sys.exit()
 
