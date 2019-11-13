@@ -4,7 +4,7 @@ import sys
 import base64
 from colorama import Fore
 
-decription= r"""
+description= r"""
  -----------------------------------------------------------------------------
 |                                   no CVE                                   |
 |                                                                            |
@@ -20,7 +20,7 @@ decription= r"""
 
 #IP, ID, Password input
 if len(sys.argv) is not 4:
-	print(decription)
+	print(description)
 	print(Fore.RED+"[-] Example: python Netgear_Path_Traversal.py <Target IP> <ID> <Password>"+Fore.RESET)
 	sys.exit()
 
